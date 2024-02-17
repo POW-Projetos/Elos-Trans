@@ -23,12 +23,10 @@
     padding: 0;
 }
 
-
 body{
-    background-color: var(--background-mobile-color);
+     background-color: var(--background-mobile-color); 
     box-sizing: border-box;
 }
-
 
 .section_text{
     margin: 2em;
@@ -50,3 +48,101 @@ body{
     color: var(--text-color);
 }
 
+a{
+    text-decoration: none;
+}
+nav{
+    background-color: var(--background-mobile-color);
+    margin-bottom: -1px;
+}
+#divImageHeader{
+    background-color: var(--background-mobile-color);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+header > nav{
+    padding-bottom: 2.5rem;
+    padding-top: 1.25rem;
+}
+
+header > nav > ul{
+    display: none;
+}
+
+header > nav > h2{
+    font-family: var(--title-header-font);
+    font-size: 1.70rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#sectionHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+}
+
+#sectionHeader > h1{
+    font-family: var(--title-header-font);
+    font-size: 2.5rem;
+    font-weight: semi-bold;
+    text-align: center;
+    line-height: 1.2;
+    margin:0px 0px;
+    margin-top: 0.625rem;
+    padding-bottom: 0.938rem;
+    background-color: var(--background-mobile-color);
+    margin-bottom: -1px;
+}
+
+#sectionHeader > p{
+    font-family: var(--subtitle-font);
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.2;
+    padding-bottom: 1.30rem;
+    background-color: var(--background-mobile-color);
+    margin-bottom: -1px;
+}
+
+#divLink1Header > a{
+    font-family: var(--title-sections-font);
+    color:white;
+    text-align: center;
+
+}
+
+#divLinksHeader{
+    background-color: var(--background-mobile-color);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divLink1Header{
+    width: 70vw;
+    height: 3.75rem ;
+    background-color: var(--primary-button-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#divLink2Header > a{
+   display: none;
+}
+
+#sectionHeart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:3.75rem ;
+    margin-bottom: -0.8rem ;
+}
