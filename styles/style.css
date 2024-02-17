@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins&display=swap');
 
+
 :root{
     --background-mobile-color: #F8F9FF;
     --background-desktop-color: #CAB7FD;
@@ -34,6 +35,7 @@ body{
     margin: 2em;
     padding: 1.8em;
     text-align: center;
+    background-color: var(--background-section-color);
 }
 
 .section_text_title{
@@ -50,3 +52,47 @@ body{
     color: var(--text-color);
 }
 
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto
+}
+
+.section_team{
+    margin: 2em;
+    padding: 1.8em;
+    text-align: center;
+    background-color: var(--background-section-color);
+}
+
+.section_team_title{
+    font-family: var(--title-sections-font);
+    font-size: 2.375rem;
+    color: var(--title-color);
+    margin: 0em 0em 0.675em 0em;
+}
+
+.section_team_text{
+    font-family: var(--texts-font);
+    font-size: 1rem;
+    line-height: 1.5em; 
+    color: var(--text-color);
+}
+
+.swiper {
+    width: 100%
+  }
+
+.section_team_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_team_cards_employee{
+    background-color: var(--background-cards-color);
+    border-radius: 20px;
+    width: 224px;
+    height: 309px;
+}
