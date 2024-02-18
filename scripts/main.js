@@ -6,3 +6,19 @@ const swiper = new Swiper('.swiper', {
         type: 'bullets',
       },
   });
+  var width = window.innerWidth;
+
+  if (width > 700 && width < 768) {
+      swiper.params.slidesPerView = 2;
+  }else if(width<700){
+      swiper.params.slidesPerView = 1;
+  }
+  window.addEventListener('resize', function () {
+    var width = window.innerWidth;
+
+    if (width > 700 && width < 768) {
+        swiper.params.slidesPerView = 2;
+    }else if(width<700){
+        swiper.params.slidesPerView = 1;
+    }
+});
