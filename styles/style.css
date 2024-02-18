@@ -79,13 +79,21 @@ body{
 }
 
 .swiper {
-    width: 100%
+    width: 100%;
+    height: 80%;
   }
 
+.swiper-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
 .section_team_cards{
     display: flex;
     align-items: center;
-    justify-content: center;
+    text-align: center;
+    margin:1.8em;
 }
 
 .section_team_cards_employee{
@@ -93,7 +101,26 @@ body{
     border-radius: 20px;
     width: 224px;
     height: 309px;
-}a{
+    padding: 2.5em 1.8em;
+    font-family: var(--texts-font);
+    color: var(--text-color);
+    line-height: 1.5em;
+}
+
+.section_team_cards_employee_name{
+    font-family: var(--title-sections-font);
+    color: var(--title-color);
+    font-size: 1.3em;
+    padding: 1.25em 1.25em 0.5em 1em;
+    text-align: center;
+}
+
+.section_team_cards_employee_position{
+    padding: 0em 0em 1.5em 0em;
+}
+
+
+a{
     text-decoration: none;
 }
 nav{
