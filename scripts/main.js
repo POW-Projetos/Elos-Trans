@@ -1,6 +1,6 @@
 const swiper = new Swiper('.swiper', {
     spaceBetween: 15,
-    slidesPerView: 1, /*Verificar como resolver isso de forma responsiva*/
+    slidesPerView: 1, 
     pagination: {
         el: '.swiper-pagination',
         type: 'bullets',
@@ -8,7 +8,7 @@ const swiper = new Swiper('.swiper', {
   });
   var width = window.innerWidth;
 
-  if (width > 700 && width < 768) {
+  if (width > 700 && width < 800) {
       swiper.params.slidesPerView = 2;
   }else if(width<700){
       swiper.params.slidesPerView = 1;
