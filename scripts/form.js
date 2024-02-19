@@ -4,15 +4,23 @@ const form = document.forms['submitGoogleSheets']
 
 form.addEventListener('submit', e => {
   e.preventDefault()
+  if (getSituation() != "false") {
     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
       .then(response => {
         form.reset()
         alreadySendData()
       })
       .catch(error => console.error('Error!', error.message))
-  
+
+  }
+
 })
 
 function alreadySendData() {
   localStorage.setItem('isValid', "false");
+}
+function getSituation() {
+
+  return localStorage.getItem('isValid');
+
 }

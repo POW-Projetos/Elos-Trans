@@ -8,7 +8,7 @@ const swiper = new Swiper('.swiper', {
   });
   var width = window.innerWidth;
 
-  if (width > 700 && width < 800) {
+  if (width >= 700 && width <= 800) {
       swiper.params.slidesPerView = 2;
   }else if(width<700){
       swiper.params.slidesPerView = 1;

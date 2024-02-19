@@ -1,26 +1,42 @@
-@media (min-width: 280px) and (max-width:340px) {
-
-#imageHeader{
-    width:260px;
-    height:200px;
+@media (min-width: 280px) and (max-width: 340px) {
+  #imageHeader {
+    width: 260px;
+    height: 200px;
+  }
 }
 
+@media (min-width: 250px) and (max-width: 280px) {
+  .swiper-wrapper {
+    justify-content: left;
+  }
+  .section_team {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+  }
+  .section_contacts_infos {
+    font-size: 0.8rem;
+  }
+  .section_text_title {
+    font-size: 1.9rem;
+  }
+  .section_contacts {
+    margin: 1.125em;
+  }
 }
 
-@media (min-width: 230px) and (max-width:280px) {
-    #imageHeader{
-        width:240px;
-        height:190px;
-    }
-    #divImageHeader{
-        margin-left: 35px;
-    }
-    #sectionHeader > h1{
-        padding-left: 15px;
-    }
+@media (min-width: 230px) and (max-width: 280px) {
+  #imageHeader {
+    width: 240px;
+    height: 190px;
+  }
+  #sectionHeader > h1 {
+    padding-left: 15px;
+  }
 }
-@media (min-width: 240px) and (max-width:310px){
-    form[name="submitGoogleSheets"] > input{
-       max-width: 230px;
-    }
+
+@media (min-width: 240px) and (max-width: 310px) {
+  form[name="submitGoogleSheets"] > input {
+    max-width: 230px;
+  }
 }
