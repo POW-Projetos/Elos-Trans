@@ -5,13 +5,8 @@
   }
 }
 
-@media (min-width: 250px) and (max-width: 280px) {
-  .swiper-wrapper {
-    justify-content: left;
-  }
+@media (min-width: 240px) and (max-width: 280px) {
   .section_team {
-    margin-left: 10px;
-    margin-right: 10px;
     padding: 0px;
   }
   .section_contacts_infos {

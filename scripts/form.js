@@ -10,17 +10,21 @@ form.addEventListener('submit', e => {
         form.reset()
         alreadySendData()
       })
-      .catch(error => console.error('Error!', error.message))
-
+      .catch(error => {
+        console.error('Error!', error.message)
+        alert("OPS!! Ocorreu um erro ao enviar o formulário, tente novamente")
+      })
   }
-
 })
 
 function alreadySendData() {
   localStorage.setItem('isValid', "false");
 }
+
 function getSituation() {
-
   return localStorage.getItem('isValid');
-
 }
+
+
+
+
