@@ -140,6 +140,31 @@
     margin-left: 50px;
   }
 
+  .section_team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secundary-button-color);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #containerTeam-desktop{
+    width: 92vw;
+    background-color: #F8F9FF;
+    border-radius: 20px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .carousel{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 15px;
+  }
+
+
   footer {
     display: flex;
     align-items: center;
@@ -165,8 +190,8 @@
     padding: 5px;
   }
 
-  .prev-btn,
+   .prev-btn,
   .next-btn {
     display: none;
-  }
+  } 
 }

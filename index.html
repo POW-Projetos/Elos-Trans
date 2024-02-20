@@ -80,9 +80,11 @@
         <img class="img" src="assets/icons/coração-icon (1).png" alt="coração" loading="lazy">
 
          <section class="section_team">
+            <div id="containerTeam-desktop">
             <h2 class="section_team_title">Nossa equipe</h2>
             <p class="section_team_text">Conheça nossa equipe de pessoas psicólogas responsáveis pelos atendimentos</p>
-             <div class="carousel-container">
+             
+            <div class="carousel-container">
             
                 <div class="carousel" id="as">
                 <div class="section_team_cards_employee">
@@ -147,11 +149,16 @@
                     <p class="section_team_cards_employee_crp">CRP 11/01201</p>
                     <p class="section_team_cards_employee_specialty">Gestalt - Terapia</p>
                 </div>
+                <div class="section_team_cards_employee" id="modifyImage">
+                    <img id="logoSectionEmployee" src="assets/images/logo- header (1) (1).png"
+                        alt="logo elos trans" >
+                </div>
                 
             </div>
             <button  class="carousel-btn prev-btn" onclick="prevSlide()">&laquo;</button>
             <button  class="carousel-btn next-btn" onclick="nextSlide()">&raquo;</button>
         </div>
+    </div>
         </section> 
         <img class="img" src="assets/arcoiris.png" alt="arcoiris nas cores rosa, lilas e violeta" loading="lazy">
         
@@ -162,7 +169,6 @@
           </div>
 
         </section>
-<div>a</div>
         <section id="sectionForm">
             <form name="submitGoogleSheets">
                 <input name="Nome" type="text" placeholder="Nome completo" required> 

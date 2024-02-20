@@ -96,6 +96,18 @@ header > nav > h2 {
   margin-bottom: -1px;
 }
 
+#logoSectionEmployee{
+  display: block;
+  width:300px;
+  height:180px;
+}
+
+#modifyImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #textHeader > p {
   font-family: var(--subtitle-font);
   font-size: 1.5rem;
