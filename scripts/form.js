@@ -9,6 +9,9 @@ form.addEventListener('submit', e => {
       .then(response => {
         form.reset()
         alreadySendData()
+        const button = document.getElementById('verify')
+        button.disabled = true;
+        button.innerHTML = "✔";
       })
       .catch(error => {
         console.error('Error!', error.message)
