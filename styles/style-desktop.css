@@ -140,7 +140,7 @@
     margin-left: 50px;
   }
 
-  .section_team{
+  .section_team {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,23 +148,99 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  #containerTeam-desktop{
+  #containerTeam-desktop {
     width: 92vw;
-    background-color: #F8F9FF;
+    background-color: #f8f9ff;
     border-radius: 20px;
     padding-top: 8%;
     padding-bottom: 8%;
     padding-left: 2%;
     padding-right: 2%;
   }
-  .carousel{
+  .carousel {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
     margin: 15px;
   }
 
+  .textToForm,
+  #sectionForm,
+  .section_contacts {
+    background-color: transparent;
+  }
+  .textToForm {
+    margin: 0em;
+  }
 
+  #sectionContactDesktop {
+    background-color: #f8f9ff;
+    border-radius: 20px;
+    width: 96vw;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 1px;
+  }
+
+  #containerTextsForm {
+    width: 100%;
+  }
+
+  #containerTextsForm > p,
+  #containerTextsForm > h3 {
+    text-align: left;
+  }
+  #containerTextsForm > h3 {
+    font-size: 1.9rem;
+  }
+  #sectionContactDesktopInside {
+    margin: auto;
+    width: 90%;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+  }
+  form[name="submitGoogleSheets"] > button {
+    margin: 0px;
+  }
+
+  #sectionFormAndContacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  #sectionForm {
+    order: 2;
+    width: 45vw;
+  }
+  .section_contacts {
+    order: 1;
+    margin: 0px;
+  }
+  form[name="submitGoogleSheets"] > input {
+    width: 45vw;
+    max-width: none;
+  }
+
+  .section_contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -50px;
+    margin-bottom: 49px;
+  }
+  .section_contacts_infos {
+    width: 211px;
+  }
+  .section_contacts_infos {
+    width: 338px;
+  }
+  #atendimento {
+    margin-left: 20px;
+  }
   footer {
     display: flex;
     align-items: center;
@@ -190,8 +266,8 @@
     padding: 5px;
   }
 
-   .prev-btn,
+  .prev-btn,
   .next-btn {
     display: none;
-  } 
+  }
 }
