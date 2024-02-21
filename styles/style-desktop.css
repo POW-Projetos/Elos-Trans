@@ -33,6 +33,13 @@
     justify-content: center;
     align-items: center;
   }
+  nav{
+    position: fixed;
+    width: 100%;
+    top:0%;
+    z-index: 100;
+    margin-bottom: 20px;
+  }
   #conteinerContact > a,
   #containerMeetElos > a {
     color: var(--primary-button-color);
@@ -109,6 +116,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: 140px;
   }
   #textHeader > h1,
   #textHeader > p {
