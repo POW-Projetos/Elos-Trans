@@ -430,4 +430,47 @@ footer {
 }
 
 
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  margin: 15px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.section_team_cards_employee {
+  min-width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color:black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.prev-btn {
+  color:var(--secundary-button-color);
+  font-size: 3rem;
+  left: 10px;
+}
+
+.next-btn {
+  color:var(--secundary-button-color);
+  font-size: 3rem;
+  right: 10px;
+}
+
 

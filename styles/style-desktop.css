@@ -33,6 +33,15 @@
     justify-content: center;
     align-items: center;
   }
+
+  nav{
+    position: fixed;
+    width: 100%;
+    top:0%;
+    z-index: 100;
+    margin-bottom: 20px;
+  }
+
   #conteinerContact > a,
   #containerMeetElos > a {
     color: var(--primary-button-color);
@@ -161,7 +170,6 @@
     align-items: center;
     background-color: var(--secundary-button-color);
   }
-
   #containerTeam-desktop {
     width: 92vw;
     background-color: #f8f9ff;
@@ -214,6 +222,8 @@
   }
 
   #sectionContactDesktopInside {
+    margin: auto;
+    width: 90%;
     background-color: white;
     border-radius: 20px;
     margin-bottom: 30px;
@@ -249,17 +259,17 @@
 
   .section_contacts {
     display: flex;
-    align-items: left;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
-
+    margin-left: -50px;
     margin-bottom: 49px;
   }
   .section_contacts_infos {
-    /* width: 211px; */
+    width: 211px;
   }
   .section_contacts_infos {
-    /* width: 338px; */
+    width: 338px;
   }
   #atendimento {
     margin-left: 20px;
