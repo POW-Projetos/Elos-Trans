@@ -1,7 +1,6 @@
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyLNX1WSXXnuumMIgHKsxXvrjR2lTjdTlN0S5msax7sdjg-lmGFK1h1Dgi_Dl0sLJMgCw/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyIublMQ3xBNFkb5tDF2Jclc1xAFDgMvndnZbY_4cqD7-hyrPpL1R0EMHeJPLr9Qq6w/exec'
 const form = document.forms['submitGoogleSheets']
-
 form.addEventListener('submit', e => {
   e.preventDefault()
   if (getSituation() != "false") {
