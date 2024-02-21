@@ -7,42 +7,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elos Trans</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="shortcut icon" href="./assets/icons/semi-arco_icon (1).png" type="image/x-icon">
-
+    <link rel="stylesheet" href="styles/style-responsive.css">
+    <link rel="stylesheet" href="styles/style-desktop.css">
 </head>
 
 <body>
     <header>
-
         <nav>
             <h2>ELOS Trans</h2>
             <ul>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Conheça ELOS Trans</a></li>
-                <li><a href="#">Quero receber atendimento</a></li>
+                <li><div id="conteinerContact"><a href="#sectionContactDesktop">Contato</a></div></li>
+                <li><div id="containerMeetElos"><a href="#sectionTextText2">Conheça ELOS Trans</a></div></li>
+                <li><div id="containerReciveService"><a href="#sectionContactDesktop">Quero receber atendimento</a></div></li>
             </ul>
         </nav>
 
         <section id="sectionHeader">
-            <div id="divImageHeader"><img src="assets/images/logo- header (1) (1).png" loading="lazy"
+            <div id="divImageHeader"><img id="imageHeader" src="assets/images/logo- header (1) (1).png" loading="lazy"
                     alt="logo ELOS Trans" width="321px" height="218px"></div>
-            <h1>Atendimento psicológico para comunidade trans</h1>
-            <p>Acolher e conectar pessoas trans em situação de vulnerabilidade social através de serviços psicológicos
-                acessíveis.</p>
-            <div id="divLinksHeader">
-                <div id="divLink1Header"><a href="#">Quero receber atendimento</a></div>
-                <div id="divLink2Header"><a href="#">Conheça ELOS Trans</a></div>
+            <div id="textHeader">
+                <h1>Atendimento psicológico para comunidade trans</h1>
+                <p>Acolher e conectar pessoas trans em situação de vulnerabilidade social através de serviços psicológicos
+                    acessíveis.</p>
+                <div id="divLinksHeader">
+                    <div id="divLink1Header"><a href="#atendimento">Quero receber atendimento</a></div>
+                    <div id="divLink2Header"><a href="#sectionTextText2">Conheça ELOS Trans</a></div>
+                </div>
             </div>
         </section>
 
     </header>
-    <section id="sectionHeart">
-        <img src="assets/icons/coração-icon (1).png" alt="coração" loading="lazy">
-    </section>
+
+    <!-- <section id="sectionHeader">
+        <div id="divImageHeader"><img id="imageHeader" src="assets/images/logo- header (1) (1).png" loading="lazy"
+                alt="logo ELOS Trans" width="321px" height="218px"></div>
+        <div id="textHeader">
+            <h1>Atendimento psicológico para comunidade trans</h1>
+            <p>Acolher e conectar pessoas trans em situação de vulnerabilidade social através de serviços psicológicos
+                acessíveis.</p>
+            <div id="divLinksHeader">
+                <div id="divLink1Header"><a href="#atendimento">Quero receber atendimento</a></div>
+                <div id="divLink2Header"><a href="#">Conheça ELOS Trans</a></div>
+            </div>
+        </div>
+    </section> -->
+        <img class="img" src="assets/icons/coração-icon (1).png" alt="coração" loading="lazy">
+
 
     <main>
-        <section class="section_text">
+        <section id="sectionTextText1" class="section_text">
             <h2 class="section_text_title">Pessoas Trans e a luta da comunidade</h2>
             <p class="section_text_paragraph">As pessoas transgênero, integrantes da comunidade LGBTQIAPN+, desempenham
                 um papel significativo
@@ -68,122 +84,149 @@
                 comunidade LGBTQIAPN+ e seus aliados.</p>
         </section>
         <img class="img" src="assets/arcoiris.png" alt="arcoiris nas cores rosa, lilas e violeta">
+        <section id="sectionTextText2" class="section_text">
+            <h2 class="section_text_title">Conheça ELOS Trans</h2>
+           <p class="section_text_paragraph">A ONG ELOS Trans emerge como uma força impulsionadora no cenário social, dedicando-se a um propósito vital: fornecer um <strong>espaço seguro e acolhedor para o atendimento psicológico de pessoas trans.</strong> </p>
+           <p class="section_text_paragraph">Nossa <strong>visão</strong> é criar redes de <strong>acolhimento, através de atendimento psicológico acessíveis</strong>, que conectem a população trans em situação de vulnerabilidade social a fim de impactar positivamente suas histórias.</p>
+            <p class="section_text_paragraph">Nossa <strong>missão</strong> é conectar pessoas trans, em situação de vulnerabilidade, <strong>estimulando o protagonismo e a liberdade de todes independente do gênero.</strong>
+                A ELOS Trans desempenha um papel vital na construção de pontes para a compreensão e aceitação, contribuindo para uma sociedade mais justa e inclusiva.</p>  
+        </section>
 
-        <section class="section_team">
+        <img class="img" src="assets/icons/coração-icon (1).png" alt="coração" loading="lazy">
+
+         <section class="section_team">
+            <div id="containerTeam-desktop">
             <h2 class="section_team_title">Nossa equipe</h2>
             <p class="section_team_text">Conheça nossa equipe de pessoas psicólogas responsáveis pelos atendimentos</p>
-            <div class="swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="section_team_cards_employee">
-                            <img class="section_team_cards_employee_img" src="assets/images/EdinaSchimitz.png"
-                                alt="imagem da psicologa Edina Schimitz">
-                            <h3 class="section_team_cards_employee_name">Edina Schimitz</h3>
-                            <p class="section_team_cards_employee_position">Psicóloga Clínica</p>
-                            <p class="section_team_cards_employee_crp">CRP 12/18818</p>
-                            <p class="section_team_cards_employee_specialty">Terapia Cognitivo Comportamental</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="section_team_cards_employee">
-                            <img class="section_team_cards_employee_img" src="assets/images/HuiliAlves.png"
-                                alt="imagem da estudante Huli Alves">
-                            <h2 class="section_team_cards_employee_name">Huli Alves</h2>
-                            <p class="section_team_cards_employee_position">Apoio Administrativo</p>
-                            <p class="section_team_cards_employee_specialty">Estudante de Psicologia</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="section_team_cards_employee">
-                            <img class="section_team_cards_employee_img" src="assets/images/GabrielaMorandim.png"
-                                alt="imagem da psicologa Gabriela Morandim">
-                            <h3 class="section_team_cards_employee_name">Gabriela Morandim</h3>
-                            <p class="section_team_cards_employee_position">Psicóloga</p>
-                            <p class="section_team_cards_employee_crp">CRPSP 167460</p>
-                            <p class="section_team_cards_employee_specialty">Orientação Psicanalítica</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="section_team_cards_employee">
-                            <img class="section_team_cards_employee_img" src="assets/images/jacksBezerra (1).png"
-                                alt="imagem do psicologo Jacks Bezerra">
-                            <h3 class="section_team_cards_employee_name">Jacks Bezerra</h3>
-                            <p class="section_team_cards_employee_position">Psicólogo e Neuropsicólogo</p>
-                            <p class="section_team_cards_employee_crp">CRP 05/30293</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="section_team_cards_employee">
-                            <img class="section_team_cards_employee_img" src="assets/images/lorenaFelippe (1).png"
-                                alt="imagem da psicologa Lorena Felippe">
-                            <h3 class="section_team_cards_employee_name">Lorena Felippe</h3>
-                            <p class="section_team_cards_employee_position">Psicóloga</p>
-                            <p class="section_team_cards_employee_crp">CRP 06/168609</p>
-                            <p class="section_team_cards_employee_specialty">Orientação Psicanalítica</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="section_team_cards_employee">
-                            <img class="section_team_cards_employee_img" src="assets/images/guilhermePavanelli (1).png"
-                                alt="imagem do psicologo Guilherme Pavanelli">
-                            <h3 class="section_team_cards_employee_name">Guilherme Pavanelli</h3>
-                            <p class="section_team_cards_employee_position">Psicólogo</p>
-                            <p class="section_team_cards_employee_crp">CRP 06/170101</p>
-                            <p class="section_team_cards_employee_specialty">Fenomenologia</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="section_team_cards_employee">
-                            <img class="section_team_cards_employee_img" src="assets/images/alinePereira (1).png"
-                                alt="imagem da psicologa Aline Pereira">
-                            <h3 class="section_team_cards_employee_name">Aline Pereira</h3>
-                            <p class="section_team_cards_employee_position">Psicóloga</p>
-                            <p class="section_team_cards_employee_crp">CRP 05/67705</p>
-                            <p class="section_team_cards_employee_specialty">Gestalt - Terapia</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="section_team_cards_employee">
-                            <img class="section_team_cards_employee_img" src="assets/images/luciaSousa (1).png"
-                                alt="imagem da psicologa Lucia Sousa">
-                            <h3 class="section_team_cards_employee_name">Lucia Sousa</h3>
-                            <p class="section_team_cards_employee_position">Psicóloga</p>
-                            <p class="section_team_cards_employee_crp">CRP 11/01201</p>
-                            <p class="section_team_cards_employee_specialty">Gestalt - Terapia</p>
-                        </div>
-                    </div>
+             
+            <div class="carousel-container">
+            
+                <div class="carousel" id="as">
+                <div class="section_team_cards_employee">
+                    <img class="section_team_cards_employee_img" src="assets/images/EdinaSchimitz.png"
+                        alt="imagem da psicologa Edina Schimitz" >
+                    <h3 class="section_team_cards_employee_name">Edina Schimitz</h3>
+                    <p class="section_team_cards_employee_position">Psicóloga Clínica</p>
+                    <p class="section_team_cards_employee_crp">CRP 12/18818</p>
+                    <p class="section_team_cards_employee_specialty">Terapia Cognitivo Comportamental</p>
                 </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-scrollbar"></div>
+                    <div class="section_team_cards_employee">
+                    <img class="section_team_cards_employee_img" src="assets/images/HuiliAlves.png"
+                        alt="imagem da estudante Huli Alves" >
+                    <h2 class="section_team_cards_employee_name">Huli Alves</h2>
+                    <p class="section_team_cards_employee_position">Apoio Administrativo</p>
+                    <p class="section_team_cards_employee_specialty">Estudante de Psicologia</p>
+                </div>
+                    <div class="section_team_cards_employee">
+                    <img class="section_team_cards_employee_img" src="assets/images/GabrielaMorandim.png"
+                        alt="imagem da psicologa Gabriela Morandim" >
+                    <h3 class="section_team_cards_employee_name">Gabriela Morandim</h3>
+                    <p class="section_team_cards_employee_position">Psicóloga</p>
+                    <p class="section_team_cards_employee_crp">CRPSP 167460</p>
+                    <p class="section_team_cards_employee_specialty">Orientação Psicanalítica</p>
+                </div>
+                    <div class="section_team_cards_employee">
+                    <img class="section_team_cards_employee_img" src="assets/images/jacksBezerra (1).png"
+                        alt="imagem do psicologo Jacks Bezerra" >
+                    <h3 class="section_team_cards_employee_name">Jacks Bezerra</h3>
+                    <p class="section_team_cards_employee_position">Psicólogo e Neuropsicólogo</p>
+                    <p class="section_team_cards_employee_crp">CRP 05/30293</p>
+                </div>
+                    <div class="section_team_cards_employee">
+                    <img class="section_team_cards_employee_img" src="assets/images/lorenaFelippe (1).png"
+                        alt="imagem da psicologa Lorena Felippe" >
+                    <h3 class="section_team_cards_employee_name">Lorena Felippe</h3>
+                    <p class="section_team_cards_employee_position">Psicóloga</p>
+                    <p class="section_team_cards_employee_crp">CRP 06/168609</p>
+                    <p class="section_team_cards_employee_specialty">Orientação Psicanalítica</p>
+                </div>
+                    <div class="section_team_cards_employee">
+                    <img class="section_team_cards_employee_img" src="assets/images/guilhermePavanelli (1).png"
+                        alt="imagem do psicologo Guilherme Pavanelli" >
+                    <h3 class="section_team_cards_employee_name">Guilherme Pavanelli</h3>
+                    <p class="section_team_cards_employee_position">Psicólogo</p>
+                    <p class="section_team_cards_employee_crp">CRP 06/170101</p>
+                    <p class="section_team_cards_employee_specialty">Fenomenologia</p>
+                </div>
+                    <div class="section_team_cards_employee">
+                    <img class="section_team_cards_employee_img" src="assets/images/alinePereira (1).png"
+                        alt="imagem da psicologa Aline Pereira" >
+                    <h3 class="section_team_cards_employee_name">Aline Pereira</h3>
+                    <p class="section_team_cards_employee_position">Psicóloga</p>
+                    <p class="section_team_cards_employee_crp">CRP 05/67705</p>
+                    <p class="section_team_cards_employee_specialty">Gestalt - Terapia</p>
+                </div>
+                    <div class="section_team_cards_employee">
+                    <img class="section_team_cards_employee_img" src="assets/images/luciaSousa (1).png"
+                        alt="imagem da psicologa Lucia Sousa" >
+                    <h3 class="section_team_cards_employee_name">Lucia Sousa</h3>
+                    <p class="section_team_cards_employee_position">Psicóloga</p>
+                    <p class="section_team_cards_employee_crp">CRP 11/01201</p>
+                    <p class="section_team_cards_employee_specialty">Gestalt - Terapia</p>
+                </div>
+                <div class="section_team_cards_employee" id="modifyImage">
+                    <img id="logoSectionEmployee" src="assets/images/logo- header (1) (1).png"
+                        alt="logo elos trans" >
+                </div>
+                
             </div>
+            <button  class="carousel-btn prev-btn" onclick="prevSlide()">&laquo;</button>
+            <button  class="carousel-btn next-btn" onclick="nextSlide()">&raquo;</button>
+        </div>
+    </div>
+        </section> 
+        <img class="img" src="assets/arcoiris.png" alt="arcoiris nas cores rosa, lilas e violeta" loading="lazy">
+        <section id="sectionContactDesktop">
+            <section id="sectionContactDesktopInside">
+                <section id="atendimento" class="textToForm">
+                    <div id="containerTextsForm">
+                        <h3>Quero passar por atendimento:</h3>
+                        <p>Preencha o formulário abaixo para nos conhecerrmos melhor e podermos entrar em contato para o atendimento psicológico.</p>
+                    </div>
+
         </section>
-        <img class="img" src="assets/arcoiris.png" alt="arcoiris nas cores rosa, lilas e violeta">
+        <section id="sectionFormAndContacts">
+        <section id="sectionForm">
+            <form name="submitGoogleSheets">
+                <input name="Nome" type="text" placeholder="Nome completo" required> 
+                <input name="Telefone" type="number" placeholder="Telefone" required> 
+                <input name="Email" type="email" placeholder="E-mail" required> 
+                <button id="verify" type="submit">Enviar</button>
+            </form>
+          </section>
+
         <section class="section_contacts">
             <div class="section_contacts_infos">
-                <img class="section_contacts_infos_img" src="/assets/icons/phone_icon.png" alt="telefone">
+                <img class="section_contacts_infos_img" src="assets/icons/phone_icon.png" alt="telefone" loading="lazy">
                 <p class="section_contacts_infos_text">+012 345 6789</p>
             </div>
             <div class="section_contacts_infos">
-                <img class="section_contacts_infos_img" src="/assets/icons/mail_icon.png" alt="envelope de correspondência">
+                <img loading="lazy" class="section_contacts_infos_img" src="assets/icons/mail_icon.png" alt="envelope de correspondência">
                 <p class="section_contacts_infos_text">Hello@animaapp.com</p>
             </div>
             <div class="section_contacts_infos">
                 <h3 class="section_contacts_infos_title">Siga nossas redes sociais</h3>
             </div>
             <div class="section_contacts_infos">
-                <a href="https://www.instagram.com/elos_trans?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img class="section_contacts_infos_img" src="/assets/icons/instagram_icon.png" alt="logo do instagram"></a>
-                <!-- <a><img class="section_contacts_infos_img" src="/assets/icons/facebook_icon.png" alt="logo do facebook"></a> -->
+                <a href="https://www.instagram.com/elos_trans?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img class="section_contacts_infos_img" src="assets/icons/instagram_icon.png" alt="logo do instagram"></a>
             </div>
         </section>
+      </section>
+     </section>
+    </section>
     </main>
     <footer>
-        <a href="https://www.instagram.com/gruposimios?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img class="footer_img" src="/assets/icons/instagram_grey_icon.png" alt="logo do instagram"></a>
-        <a href="https://www.linkedin.com/company/grupo-s%C3%ADmios/"><img class="footer_img" src="/assets/icons/linkedin_grey_icon.png" alt="logo do LinkdIn"></a>
+        <div>
+            <a href="https://www.instagram.com/gruposimios?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img class="footer_img" src="assets/icons/instagram_grey_icon.png" alt="logo do instagram"></a>
+            <a href="https://www.linkedin.com/company/grupo-s%C3%ADmios/" target="_blank"><img class="footer_img" src="assets/icons/linkedin_grey_icon.png" alt="logo do LinkdIn"></a>
+        </div>
         <p class="footer_text">©2024 Grupo Símios</p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="scripts/main.js"></script>
+
+    <script src="scripts/form.js"></script>
+    <script src="scripts/verfybutton.js"></script>
+    <script src="scripts/carousel.js"></script>
 </body>
 
 </html>
