@@ -231,6 +231,7 @@ header > nav > h2 {
   padding: 0em 0em 1.25em 0em;
 }
 
+
 .swiper {
   position: fixed;
   width: 100%;
@@ -277,6 +278,17 @@ header > nav > h2 {
 .section_team_cards_employee_position {
   padding: 0em 0em 1.5em 0em;
 }
+
+.section_team_cards_employee_Links>a:visited{
+  color: var(--text-color);
+}
+.section_team_cards_employee_Links{
+  text-decoration: none;
+  font-family: var(--texts-font);
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
 
 .img_arco_iris {
   display: flex;
