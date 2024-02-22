@@ -158,6 +158,14 @@
     align-items: center;
     justify-content: center;
   }
+
+  .heart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6.85em auto auto auto;
+  }
+
   #textHeader {
     order: 1;
     width: 100%;
@@ -170,6 +178,7 @@
     align-items: center;
     background-color: var(--secundary-button-color);
   }
+
   #containerTeam-desktop {
     width: 92vw;
     background-color: #f8f9ff;
@@ -180,6 +189,14 @@
     padding-right: 2%;
     margin: 0em 6.75em;
     flex-wrap: wrap;
+  }
+
+  #logoSectionEmployeeSimios{
+    width: 19em;
+    height: 14em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .carousel {
